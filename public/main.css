@@ -1,0 +1,41 @@
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+}
+
+html {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    cursor: default;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -ms-content-zooming: none;
+    touch-action: pan-y;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    padding: 0;
+}
+
+#root {
+    min-height: 100%;
+    display: flex;
+}
